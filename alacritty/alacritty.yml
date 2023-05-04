@@ -2,7 +2,10 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-  opacity: 1
+  opacity: 0.9
+  padding:
+    x: 5
+    y: 5
 
 scrolling:
   history: 10000
@@ -35,3 +38,5 @@ shell:
 
 key_bindings:
   - { key: T, mods: Control, action: SpawnNewInstance }
+  - { key: V, mods: Control, action: Paste }
+  - { key: C, mods: Control, action: Copy }
