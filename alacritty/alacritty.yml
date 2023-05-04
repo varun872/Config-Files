@@ -37,6 +37,6 @@ shell:
   program: /usr/bin/fish
 
 key_bindings:
-  - { key: T, mods: Control, action: SpawnNewInstance }
+  - { key: T, mods: Control|Shift, action: SpawnNewInstance }
   - { key: V, mods: Control, action: Paste }
   - { key: C, mods: Control, action: Copy }
